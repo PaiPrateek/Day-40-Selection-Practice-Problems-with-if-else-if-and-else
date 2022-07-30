@@ -71,3 +71,35 @@ if (dayNumber == 1)
     console.log("Number not valid");
 }
 
+
+//Display Unit Tens thousands so on ....
+let power = Math.floor(Math.random()*10)%7;
+let num = 10**power;
+console.log("Number : "+number);
+
+if (num == 1) 
+{
+    console.log("One");
+} else if (number == 10) 
+{
+    console.log("Ten");
+} else if (number == 100) 
+{
+    console.log("Hundred");
+} else if (number == 1000) 
+{
+    console.log("Thousand");
+} else if (number == 10000) 
+{
+    console.log("Ten thousand");
+} else if (number == 100000) 
+{
+    console.log("One Lakh");
+} else if (number == 100000) 
+{
+    console.log("Ten Lakh");
+} else 
+{
+    console.log("Input value not defined.");
+}
+
